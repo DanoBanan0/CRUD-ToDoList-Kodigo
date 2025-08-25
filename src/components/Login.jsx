@@ -17,6 +17,7 @@ const Login = () => {
         if (registrando) {
             try {
                 await createUserWithEmailAndPassword(auth, email, password);
+            // eslint-disable-next-line no-unused-vars
             } catch (e) {
                 alert("Asegurese que la contraseña tenga mas de 8 caracteres")
             }
@@ -24,6 +25,7 @@ const Login = () => {
         else{
             try {
                 await signInWithEmailAndPassword(auth, email, password)
+            // eslint-disable-next-line no-unused-vars
             } catch (e) {
                 alert("El correo o la contraseña son incorrectos")
             }
