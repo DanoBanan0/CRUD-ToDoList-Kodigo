@@ -36,7 +36,7 @@ const Form = () => {
     return (
         <div >
             <div className='shadow-sm mt-5' style={{backgroundColor: 'white', borderRadius: '40px'}}>
-                <h4 className='text-center'>Registro de Peliculas</h4>
+                <h4 className='text-center texto-peliculas'>REGISTRO DE PELICULAS</h4>
                 <form className='p-4' onSubmit={saveMovie} >
                     <div className='form-floating'>
                         <input
