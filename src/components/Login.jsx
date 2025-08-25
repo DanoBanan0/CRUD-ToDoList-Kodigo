@@ -35,7 +35,7 @@ const Login = () => {
     return (
         <div className='container'>
             <div className="row">
-                {/* Columna mas pequeña */}
+
                 <div className="col-md-4">
                     <div className="padre">
                         <div className="card card-body shadow-lg">
@@ -49,7 +49,7 @@ const Login = () => {
                         </div>
                     </div>
                 </div>
-                {/* Columna mas grande */}
+
                 <div className="col-md-8">
                     <img className='tamaño-imagen' style={{padding: '0 50px 200px 200px'}} src={imageLogin} alt="" />
                 </div>
